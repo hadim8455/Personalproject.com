@@ -1,3 +1,134 @@
-h1{
-    background-color: bisque;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "open sans"
+}
+
+            /* Header Start */
+.main-con{
+    background-color: #a1b716 !important;
+    height: 88px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    
+}
+.nava a{
+    color: white !important;
+}
+.iconhead{
+    margin-left: 250px ;    
+}
+
+.nav-content{
+    margin-left: 150px;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+            /* section 1 start */
+
+.sec1-img1{
+    position: relative;
+
+}
+.sec1-content{
+    position: absolute;
+    color: #ffffff;
+    top: 260px;
+    left: 380px;
+    font-size: 16px;
+
+}
+.sec1-content2{
+    position: absolute;
+    color: #ffffff;
+    top: 260px;
+    left: 450px;
+    font-size: 16px;
+}
+.sec1-content3{
+    position: absolute;
+    color: #ffffff;
+    top: 260px;
+    left: 450px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+            /* section 1 end */
+
+            /* section 2 start */
+
+.sec2-maincontainer{
+    width: 1349px;
+    height: 219px; 
+    color: #444456;
+    text-align: center;   
+}
+.sec2-content2{
+    width: 1200px;
+    height: 304px;
+    text-align: center;
+    color: #444456;
+}
+
+            /* section 2 end */
+
+            /* section 3 start */
+
+.sec3-maincontainer{
+    width: 1200px;
+    height: px;
+    margin-left: 80px;
+    
+}
+.sec3-btn{
+    width: 240px;
+    background-color:#a1b716;
+    border-style: none;
+}
+.sec3-btn:hover{
+    background-color: #624462;
+}
+.newsletter{
+        width: 1349px;
+        height: 219px; 
+        color: #444456;
+        text-align: center; 
+}
+.seclast-btn{
+    text-align: center;
+    background-color:#a1b716;
+    border-style: none;
+}
+.seclast-btn:hover{
+    background-color: #624462;
+    
+}
+
+
+            /* section 3 end */
+          
+            /* footer start */
+
+.footer-main{
+    width: 100%;
+    height: 250px;
+    background-color:#a1b716;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ft-hr{
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.ft-end{
+    display: flex;
+    justify-content: space-between;
 }
